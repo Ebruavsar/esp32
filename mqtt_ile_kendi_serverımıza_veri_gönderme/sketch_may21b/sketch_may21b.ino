@@ -7,7 +7,7 @@
 // WiFi ve MQTT ayarları
 const char* ssid = "A";
 const char* password = "15089443";
-const char* mqtt_server = "192.168.15.135";
+const char* mqtt_server = "192.168.179.135";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
